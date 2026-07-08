@@ -11,9 +11,9 @@ window-width=120
 window-height=33
 
 background-blur = macos-glass-regular
-background-opacity = 0.50
+background-opacity = 0.70
 
-unfocused-split-opacity = 0.50
+unfocused-split-opacity = 0.60
 
 macos-titlebar-style="hidden"
 

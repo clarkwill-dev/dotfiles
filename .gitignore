@@ -4,3 +4,6 @@ test.sh
 spell/
 lazy-lock.json
 .DS_Store
+home/.config/herdr/*.log
+home/.config/herdr/release-notes.json
+home/.config/herdr/session.json
