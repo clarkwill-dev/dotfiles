@@ -1,4 +1,18 @@
 {
-  "skipDangerousModePermissionPrompt": true,
-  "model": "sonnet"
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "command": "bash '/Users/willclark/.claude/hooks/herdr-agent-state.sh' session",
+            "timeout": 10,
+            "type": "command"
+          }
+        ],
+        "matcher": "*"
+      }
+    ]
+  },
+  "model": "sonnet",
+  "skipDangerousModePermissionPrompt": true
 }

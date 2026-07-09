@@ -17,6 +17,7 @@ in
     neovim
     # the font everything renders in
     nerd-fonts.hack
+    texlive.combined.scheme-medium
   ];
   fonts.fontconfig.enable = true;
   home.sessionVariables.EDITOR = "nvim";
