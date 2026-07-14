@@ -1,18 +1,19 @@
 {
+  "model": "Fable",
   "hooks": {
     "SessionStart": [
       {
+        "matcher": "*",
         "hooks": [
           {
+            "type": "command",
             "command": "bash '/Users/willclark/.claude/hooks/herdr-agent-state.sh' session",
-            "timeout": 10,
-            "type": "command"
+            "timeout": 10
           }
-        ],
-        "matcher": "*"
+        ]
       }
     ]
   },
-  "model": "sonnet",
+  "effortLevel": "high",
   "skipDangerousModePermissionPrompt": true
 }

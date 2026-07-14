@@ -39,6 +39,7 @@ system.defaults = {
 	      "herdr"
 	      "fx"
 	      "uv"
+	      "jupytext"
 	    ];
 	    casks = [
 	      "ghostty"
