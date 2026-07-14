@@ -40,6 +40,7 @@ system.defaults = {
 	      "fx"
 	      "uv"
 	      "jupytext"
+	      "tesseract"
 	    ];
 	    casks = [
 	      "ghostty"

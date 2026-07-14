@@ -18,6 +18,7 @@ in
     # the font everything renders in
     nerd-fonts.hack
     texlive.combined.scheme-full
+    quarto
   ];
   fonts.fontconfig.enable = true;
   home.sessionVariables.EDITOR = "nvim";
