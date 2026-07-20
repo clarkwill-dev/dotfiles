@@ -41,6 +41,7 @@ system.defaults = {
 	      "uv"
 	      "jupytext"
 	      "tesseract"
+	      "node"
 	    ];
 	    casks = [
 	      "ghostty"

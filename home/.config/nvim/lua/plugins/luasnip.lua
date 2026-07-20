@@ -7,6 +7,11 @@ return {
 
   config = function()
     local ls = require 'luasnip'
+    ls.setup {
+      enable_autosnippets = true,
+      update_events = 'TextChanged,TextChangedI', -- expand/update as you type
+      store_selection_keys = '<Tab>',
+    }
     require('luasnip.loaders.from_lua').lazy_load { paths = '~/.config/nvim/lua/snippets' }
     vim.keymap.set({ 'i' }, '<C-K>', function() ls.expand() end, { silent = true })
     vim.keymap.set({ 'i', 's' }, '<C-L>', function() ls.jump(1) end, { silent = true })
