@@ -42,6 +42,7 @@ system.defaults = {
 	      "jupytext"
 	      "tesseract"
 	      "node"
+	      "jupyterlab"
 	    ];
 	    casks = [
 	      "ghostty"
